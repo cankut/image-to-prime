@@ -1,11 +1,13 @@
 import Utils
 import numpy as np
 from PIL import Image
+import os
 
 # Saves image of prime
 
-jsonFile = "cankut.json"
-imgFile = "prime_"+jsonFile.split('.')[0]+".png"
+jsonFile = "./results/euler/54x66/prime_2020-05-11 213910.json"
+
+imgFile = "img_"+os.path.basename(jsonFile)+".png"
 
 # load from json
 num, colors, size = Utils.load_from_file(jsonFile)
