@@ -2,6 +2,8 @@
 
 Convert an image to a prime number
 
+Read Article: [https://cankut.github.io/posts/2020-05-12-image-to-prime.html](https://cankut.github.io/posts/2020-05-12-image-to-prime.html)
+
 ## usage
 - use `main.py` to search for a prime (you can spawn multiple processes to speed up search.)
 - use `json_to_image.py` to generate 1:1 size image of the number
